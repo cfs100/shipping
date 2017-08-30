@@ -1,0 +1,24 @@
+{
+	"name": "cfs100/shipping",
+	"type": "library",
+	"description": "Basic shipping helpers.",
+	"keywords": ["php", "shipping"],
+	"homepage": "https://github.com/cfs100/shipping",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Caio Ferreira Silva",
+			"email": "caio@ferreirasilva.com.br"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"shipping\\": "src"
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
