@@ -174,7 +174,7 @@ class correios extends instance
 
         $data = [
             'nCdEmpresa' => $this->contract['code'],
-            'nDsSenha' => $this->contract['password'],
+            'sDsSenha' => $this->contract['password'],
             'nCdServico' => implode(',', $this->services),
             'sCepOrigem' => $this->origin,
             'sCepDestino' => $this->destination,
